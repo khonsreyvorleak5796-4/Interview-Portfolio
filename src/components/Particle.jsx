@@ -29,10 +29,10 @@ export default function Particle() {
           options={{
             background: {
                 color: {
-                  value: "#fff",
+                  value: "#000000",
                 },
               },
-            fpsLimit: 120,
+            fpsLimit: 200,
             interactivity: {
               events: {
                 onClick: {
@@ -57,13 +57,13 @@ export default function Particle() {
             },
             particles: {
               color: {
-                value: "#ed2218",
+                value: "#FFFFFF",
               },
               links: {
-                color: "#f7655e",
+                color: "#FFFFFF",
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
+                opacity: 0.1,
                 width: 1,
               },
               move: {
@@ -81,7 +81,7 @@ export default function Particle() {
                   enable: true,
                   area: 800,
                 },
-                value: 160,
+                value: 120,
               },
               opacity: {
                 value: 0.5,
@@ -90,7 +90,7 @@ export default function Particle() {
                 type: "circle",
               },
               size: {
-                value: { min: 1, max: 5 },
+                value: { min: 1, max: 3 },
               },
             },
             detectRetina: true,
