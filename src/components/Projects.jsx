@@ -1,10 +1,11 @@
 import React from 'react'
-import Portfolio from '../assets/Portfolio.png'
+// import Portfolio from '../assets/Portfolio.png'
 import SpicyBites from '../assets/SpicyBites.png'
 import Youtube from '../assets/Youtube.png'
 import Webelite from '../assets/Webelite.png'
 import Supercar from '../assets/Supercar.png'
 import Cards from './Cards'
+import Botanico from '../assets/Botanico.png'
 
 
 const Projects = () => {
@@ -13,37 +14,37 @@ const Projects = () => {
         {
           title: 'Botanico',
           desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
-          image: Portfolio,
+          image: Botanico ,
           live: "https://botanico-us-91nl.vercel.app/",
         },
-        {
-          title: 'Spicy Bites',
-          desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
-          image: SpicyBites,
-          live: "https://spicybites.netlify.app/",
+        // {
+        //   title: 'Spicy Bites',
+        //   desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
+        //   image: SpicyBites,
+        //   live: "https://spicybites.netlify.app/",
        
-        },
-        {
-          title: 'YouTube Clone',
-          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Youtube,
-          live: "https://youtube-clone-93300.netlify.app/",
+        // },
+        // {
+        //   title: 'YouTube Clone',
+        //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+        //   image: Youtube,
+        //   live: "https://youtube-clone-93300.netlify.app/",
      
-        },
-        {
-          title: 'Webelite builder',
-          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Webelite,
-          live: "https://www.webelitebuilders.com/",
+        // },
+        // {
+        //   title: 'Webelite builder',
+        //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+        //   image: Webelite,
+        //   live: "https://www.webelitebuilders.com/",
      
-        },
-        {
-          title: 'Super Car',
-          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Supercar,
-          live: "https://supercar123.netlify.app/",
+        // },
+        // {
+        //   title: 'Super Car',
+        //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+        //   image: Supercar,
+        //   live: "https://supercar123.netlify.app/",
         
-        },
+        // },
       ];
 
   return (

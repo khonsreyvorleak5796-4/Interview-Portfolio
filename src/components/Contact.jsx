@@ -13,7 +13,12 @@ const Contact = () => {
   <div className='text-center'>
     <h2 className='text-3xl font-bold mb-3 text-white'>Get in Touch</h2>
     {/* <p className='mb-4 text-white'>Best way to reach me is through!</p> */}
-    <p className='mb-4 text-white'> khonsreyvorleak5796@gmail.com <br /></p>
+    <p className="mb-4 text-white">
+  <a href="mailto:khonsreyvorleak5796@gmail.com" className="underline text-blue-400 hover:text-white text-xl">
+    khonsreyvorleak5796@gmail.com
+  </a>
+</p>
+
 
   </div>
 </div>
