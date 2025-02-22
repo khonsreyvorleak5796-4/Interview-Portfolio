@@ -1,9 +1,4 @@
 import React from 'react'
-import facebook from '../assets/facebook.png'
-import instagram from '../assets/instagram.png'
-import linkedin from '../assets/linkedin.png'
-import Lottie from 'lottie-react'
-import contact from '../assets/Contact.json'
 
 const Contact = () => {
   return (
@@ -13,11 +8,19 @@ const Contact = () => {
   <div className='text-center'>
     <h2 className='text-3xl font-bold mb-3 text-white'>Get in Touch</h2>
     {/* <p className='mb-4 text-white'>Best way to reach me is through!</p> */}
-    <p className="mb-4 text-white">
-  <a href="mailto:khonsreyvorleak5796@gmail.com" className="underline text-blue-400 hover:text-white text-xl">
-    khonsreyvorleak5796@gmail.com
-  </a>
-</p>
+    <div className="mb-6 text-white">
+  <p className="text-xl">
+    <span className="font-semibold">Email:</span>
+    <a href="mailto:khonsreyvorleak5796@gmail.com" className="underline text-2xl ml-2">
+      khonsreyvorleak5796@gmail.com
+    </a>
+  </p>
+  <p className="text-xl mt-2">
+    <span className="font-semibold">Telegram:</span>
+    <span className="text-2xl ml-2">070513499</span>
+  </p>
+</div>
+
 
 
   </div>

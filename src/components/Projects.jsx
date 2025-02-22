@@ -1,13 +1,11 @@
 import React from 'react'
-// import Portfolio from '../assets/Portfolio.png'
-import SpicyBites from '../assets/SpicyBites.png'
-import Youtube from '../assets/Youtube.png'
-import Webelite from '../assets/Webelite.png'
-import Supercar from '../assets/Supercar.png'
+
+import PPweather from '../assets/pp-weather.png'
+import Minimal from '../assets/MinimalBlog.png'
 import Cards from './Cards'
 import Botanico from '../assets/Botanico.png'
-
-
+import sellingbicycle from '../assets/sellingBicycle.png'
+import Agromarket from '../assets/Agromarket.png'
 const Projects = () => {
 
     const projectJson = [
@@ -17,34 +15,34 @@ const Projects = () => {
           image: Botanico ,
           live: "https://botanico-us-91nl.vercel.app/",
         },
-        // {
-        //   title: 'Spicy Bites',
-        //   desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
-        //   image: SpicyBites,
-        //   live: "https://spicybites.netlify.app/",
+        {
+          title: 'Minimal Blog',
+          desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
+          image: Minimal,
+          live: "https://minimal-blog-beryl.vercel.app/",
        
-        // },
-        // {
-        //   title: 'YouTube Clone',
-        //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-        //   image: Youtube,
-        //   live: "https://youtube-clone-93300.netlify.app/",
+        },
+        {
+          title: 'PP-Weather',
+          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+          image: PPweather,
+          live: "https://pp-weather-azure.vercel.app/",
      
-        // },
-        // {
-        //   title: 'Webelite builder',
-        //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-        //   image: Webelite,
-        //   live: "https://www.webelitebuilders.com/",
+        },
+        {
+          title: 'Selling Bicycle',
+          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+          image: sellingbicycle ,
+          live: "https://limsopheak16.github.io/Selling-Bicycle/",
      
-        // },
-        // {
-        //   title: 'Super Car',
-        //   desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-        //   image: Supercar,
-        //   live: "https://supercar123.netlify.app/",
+        },
+        {
+          title: 'AgroMarket',
+          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+          image: Agromarket,
+          live: "",
         
-        // },
+        },
       ];
 
   return (
