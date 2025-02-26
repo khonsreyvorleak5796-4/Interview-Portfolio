@@ -7,6 +7,8 @@ import ReactLogo from '../assets/React.png'
 import Tailwind from '../assets/Tailwind Css.png'
 import Bootstrap from '../assets/Bootstrap.png'
 import Mongodb from '../assets/mongodb.svg'
+import Pgadmin from '../assets/pgadmin.png'
+import Postman from '../assets/postman.png'
 
 
 
@@ -21,8 +23,9 @@ const About = () => {
                             <div>
                                 <h3 className='text-2xl font-semibold text-white'>About  Me</h3>
                                 <p className='mt-4 text-lg text-white'>
-                                    I started my journey in web development with a passion for creating intuitive and scalable applications. With proficiency in the MERN stack (MongoDB, Express.js, React, and Node.js), I have built Projects such as a full-stack food ordering website , ajob portal, and even a LinkedIn clone. My projects demonstrate my ability to integrate poweful backend solutions with sleek, user-friendly frontend designs.
-                                </p>                            </div>
+                                    I am a self-taught web developer with a passion for creating beautiful and functional websites. I have experience in building websites using HTML, CSS, and JavaScript. I am also familiar with React, Tailwind CSS, and Bootstrap. I am currently learning Node.js and Express.js to become a full-stack developer. I am a quick learner and always eager to learn new technologies.
+                                </p>                         
+                                 </div>
                             <div className='border border-red-200 rounded-lg md:p-7 py-7  flex flex-col gap-8 items-center shadow-lg shadow-red-300'>
                                 <h3 className='text-2xl font-semibold text-red-600'>Skills</h3>
                                 <div className='flex items-center justify-center flex-wrap gap-3'>
@@ -62,8 +65,12 @@ const About = () => {
                                     </div>
 
                                     <div className='border border-red-300 flex items-center  w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
-                                        <img src={Mongodb} alt="" className='w-10' />
-                                        <span className='font-semibold text-white'>Mongodb</span>
+                                        <img src={Pgadmin} alt="" className='w-10' />
+                                        <span className='font-semibold text-white'>Pgdamin</span>
+                                    </div>
+                                    <div className='border border-red-300 flex items-center  w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
+                                        <img src={Postman} alt="" className='w-10' />
+                                        <span className='font-semibold text-white'>Postman</span>
                                     </div>
                                   
                                 </div>

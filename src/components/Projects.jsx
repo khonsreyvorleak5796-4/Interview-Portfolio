@@ -5,42 +5,50 @@ import Minimal from '../assets/MinimalBlog.png'
 import Cards from './Cards'
 import Botanico from '../assets/Botanico.png'
 import sellingbicycle from '../assets/sellingBicycle.png'
-import Agromarket from '../assets/Agromarket.png'
+import library from '../assets/library.png'
+import Survey from '../assets/survey.png'
 const Projects = () => {
 
     const projectJson = [
         {
           title: 'Botanico',
-          desc: 'Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.',
+          desc: 'This website was created for the company to sell its products and provide customers with information about Botanico.',
           image: Botanico ,
           live: "https://botanico-us-91nl.vercel.app/",
         },
         {
           title: 'Minimal Blog',
-          desc: 'The team at Webelite Builders exceeded our expectations with their digital marketing expertise. Highly recommend!',
+          desc: 'This simple blog template is made for creative ideas, with a clean and stylish design to display your thoughts, art, and stories in an attractive way.',
           image: Minimal,
           live: "https://minimal-blog-beryl.vercel.app/",
        
         },
         {
           title: 'PP-Weather',
-          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+          desc: 'The PP-Weather website is to give users accurate and current weather information. detailed climate details, and other weather-related information for different places',
           image: PPweather,
           live: "https://pp-weather-azure.vercel.app/",
      
         },
         {
           title: 'Selling Bicycle',
-          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
+          desc: 'Bicycle selling website is to provide an online platform where customers can easily browse and purchase different types of bicycles.',
           image: sellingbicycle ,
           live: "https://limsopheak16.github.io/Selling-Bicycle/",
      
         },
         {
-          title: 'AgroMarket',
-          desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-          image: Agromarket,
-          live: "",
+          title: 'Library Management System',
+          desc: 'A Library Management System is built to help libraries organize books, track check-outs .',
+          image: library,
+          // live: "",
+        
+        },
+        {
+          title: 'Survey Form',
+          desc: 'Online survey form is to collect opinions or information from many people easily and quickly. ',
+          image: Survey,
+          live: "https://survey-form-new-lilac.vercel.app/",
         
         },
       ];
