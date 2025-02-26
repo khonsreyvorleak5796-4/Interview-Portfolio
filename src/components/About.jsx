@@ -23,7 +23,13 @@ const About = () => {
                             <div>
                                 <h3 className='text-2xl font-semibold text-white'>About  Me</h3>
                                 <p className='mt-4 text-lg text-white'>
-                                    I am a self-taught web developer with a passion for creating beautiful and functional websites. I have experience in building websites using HTML, CSS, and JavaScript. I am also familiar with React, Tailwind CSS, and Bootstrap. I am currently learning Node.js and Express.js to become a full-stack developer. I am a quick learner and always eager to learn new technologies.
+                                Hi, I’m Khon Sreyvorleak, a full-stack developer from Phnom Penh, Cambodia. I enjoy building web applications that are smooth, efficient, and scalable.
+
+I have experience creating user-friendly websites and developing backend systems. I work with technologies like React.js, Next.js, Node.js, MySQL, and PostgreSQL.
+
+I’m currently in my second year studying Web and Mobile App Development at PSE and also gaining hands-on experience as a Front-End Development Intern at Botanico Company.
+
+When I’m not coding, I enjoy playing badminton, learning new tech through tutorials, and watching fun videos on YouTube.
                                 </p>                         
                                  </div>
                             <div className='border border-red-200 rounded-lg md:p-7 py-7  flex flex-col gap-8 items-center shadow-lg shadow-red-300'>
